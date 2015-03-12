@@ -20,7 +20,7 @@ public static Properties p;
 public static void Orproperties() throws IOException
 
 {
-	FileInputStream f=new FileInputStream("E:\\Testing Tools\\Project\\Pactera\\Pacteraor.txt");
+	FileInputStream f=new FileInputStream("Pacteraor.txt");
 	p=new Properties();
 	p.load(f);
 }
