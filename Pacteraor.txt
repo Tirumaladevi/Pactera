@@ -1,0 +1,2 @@
+searchfor=.//*[@id='s']
+searchsubmit=.//*[@id='searchsubmit']

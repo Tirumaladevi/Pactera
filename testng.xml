@@ -1,0 +1,9 @@
+<suite name="Pactera suite1">
+
+<test name="Pactera search">
+	<classes>
+		<class name="search.Testautomation"></class>
+	</classes>
+</test>
+
+</suite>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Pactera suite1" duration-ms="38521" started-at="2015-03-12T22:20:51Z" finished-at="2015-03-12T22:21:30Z">
+    <groups>
+    </groups>
+    <test name="Pactera search" duration-ms="38521" started-at="2015-03-12T22:20:51Z" finished-at="2015-03-12T22:21:30Z">
+      <class name="search.Testautomation">
+        <test-method status="PASS" signature="openapp()[pri:0, instance:search.Testautomation@47fd17e3]" name="openapp" is-config="true" duration-ms="27004" started-at="2015-03-13T03:50:51Z" finished-at="2015-03-13T03:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method status="PASS" signature="search()[pri:0, instance:search.Testautomation@47fd17e3]" name="search" duration-ms="11271" started-at="2015-03-13T03:51:18Z" finished-at="2015-03-13T03:51:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="closeapp()[pri:0, instance:search.Testautomation@47fd17e3]" name="closeapp" is-config="true" duration-ms="233" started-at="2015-03-13T03:51:30Z" finished-at="2015-03-13T03:51:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- search.Testautomation -->
+    </test> <!-- Pactera search -->
+  </suite> <!-- Pactera suite1 -->
+</testng-results>
