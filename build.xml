@@ -3,7 +3,7 @@
 <project name="FreesunPortal" default="compile" basedir=".">
 	    <property environment="env"/>
 	    <property name="ws.home" value="${basedir}"/>
-	    <property name="ws.jars" value="E:\Testing Tools\Project\Pactera\libs"/>
+	    <property name="ws.jars" value="${basedir}\libs"/>
 	    <property name="test.dest" value="${basedir}\build"/>
 	    <property name="test.src" value="${basedir}\src"/>
 	    <property name="ng.result" value="test-output"/>
@@ -50,7 +50,7 @@
 		
 	<!--run-->
 	<target name="run" depends="compile"> 
-		<taskdef resource="testngtasks" classpath="E:\Testing Tools\selenium-java-2.44.0\selenium-2.44.0\libs\testng-6.8.5.jar" />
+		<taskdef resource="testngtasks" classpath="${basedir}\libs\testng-6.8.5.jar" />
 		<testng classpath="${test.classpath}:${test.dest}">
 		            <xmlfileset dir="${ws.home}" includes="testng.xml"/>
 		</testng>
